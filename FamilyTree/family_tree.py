@@ -59,8 +59,9 @@ class FamilyTree:
         
         childs = self.get_child_info(person_name)
         grandchilden = []
-        for grandchild in childs:
-            grandchilden.append(grandchild)
+        for child in childs:
+            child_info = self.get_child_info(child)
+            grandchilden.extend(child_info if child_info is not None else [])
 
         # Print the family
         print(f'\nGrandparents: {", ".join(grandparents)}\n'\
