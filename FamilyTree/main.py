@@ -13,7 +13,7 @@ def main():
     tree.load_from_csv('FamilyTree/family.csv')
 
     # Print information of target
-    person = input('Please input the name of a Person: ')
+    person = input('\nPlease input the name of a Person: ')
     tree.print_person_info(person)
 
 # Runs main if the filename is main

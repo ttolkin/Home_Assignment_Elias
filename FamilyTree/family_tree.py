@@ -52,17 +52,20 @@ class FamilyTree:
     def print_person_info(self, person_name):
         parents = self.get_parent_info(person_name)
         grandparents = []
+        # geting the parents of the parents
         for parent in parents:
-            grandparents.append(self.get_parent_info(parent))
+            parent_info = self.get_parent_info(parent)
+            grandparents.extend(parent_info if parent_info is not None else [])
+        
         childs = self.get_child_info(person_name)
         grandchilden = []
         for grandchild in childs:
             grandchilden.append(grandchild)
 
         # Print the family
-        print(f'Grandparents: {grandparents}\n'\
+        print(f'\nGrandparents: {", ".join(grandparents)}\n'\
               f'Parents: {", ".join(parents)}\n'\
               f'Target Name: {person_name}\n'\
               f'Childs: {", ".join(childs)}\n'\
-              f'Grandschldren: {", ".join(grandchilden)}\n')
+              f'Grandshildren: {", ".join(grandchilden)}\n')
         
