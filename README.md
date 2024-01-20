@@ -10,13 +10,13 @@
 
 ```
 
-Please input the name of a Person: Prince William
+Please input the name of a Person: Henry IV
 
-Grandparents: Frances Shand Kydd, John Spencer, Prince Philip, Queen Elizabeth II
-Parents: Princess Diana, Prince Charles
-Target Name: Prince William
-Childs: George
-Grandshildren: George
+Grandparents: 
+Parents: Blanche of Lancaster, John of Gaunt
+Target Name: Henry IV
+Childs: Henry V
+Grandshildren: Henry VI
 
 ```
 
