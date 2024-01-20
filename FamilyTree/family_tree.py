@@ -68,3 +68,4 @@ class FamilyTree:
               f'Target Name: {person_name}\n'\
               f'Childs: {", ".join(childs)}\n'\
               f'Grandshildren: {", ".join(grandchilden)}\n')
+        
