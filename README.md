@@ -20,6 +20,7 @@ Grandshildren: George
 
 ```
 
-Please note that the family.csv file was generatet by chatGPT.
+Please note that the family.csv file was generatet by chatGPT. (Do not expect the family tree to make sense) 
 
-Have Fun!
+---
+### Have Fun!
