@@ -30,7 +30,7 @@ class FamilyTree:
                 name = row['Name']
                 father = row['Father']
                 mother = row['Mother']
-                children = row['Children'].split(', ') if row['Children'] else []
+                children = row['Children'].split('. ') if row['Children'] else []
                 spouse = row['Spouse']
 
                 person = Person(name, father, mother, children, spouse)
@@ -69,4 +69,3 @@ class FamilyTree:
               f'Target Name: {person_name}\n'\
               f'Childs: {", ".join(childs)}\n'\
               f'Grandshildren: {", ".join(grandchilden)}\n')
-        
