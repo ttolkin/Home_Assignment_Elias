@@ -15,8 +15,8 @@ Please input the name of a Person: Henry IV
 Grandparents: 
 Parents: Blanche of Lancaster, John of Gaunt
 Target Name: Henry IV
-Childs: Henry V
-Grandshildren: Henry VI
+Childs: Henry V, Henry VI, Thomas, John, Humphrey, Philippa
+Grandshildren: Henry VI, Henry III
 
 ```
 
